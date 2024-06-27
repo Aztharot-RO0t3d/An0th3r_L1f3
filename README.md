@@ -2,7 +2,8 @@
 
 ## Descripción
 
-Este repositorio contiene una herramienta en Python para cambiar direcciones MAC de interfaces de red en sistemas Unix. La herramienta permite seleccionar una interfaz de red y cambiar su dirección MAC de manera manual o generar una dirección MAC aleatoria.
+  Este repositorio contiene una herramienta en Python para cambiar direcciones MAC de interfaces de red en sistemas Unix. La herramienta permite seleccionar una interfaz de red y cambiar su dirección MAC de manera manual o generar una dirección 
+  MAC aleatoria.
 
 ## Funcionalidades
 
@@ -12,20 +13,26 @@ Este repositorio contiene una herramienta en Python para cambiar direcciones MAC
 
 ## Planificación
 
-La herramienta se diseñó para facilitar la manipulación segura y eficiente de direcciones MAC, especialmente en contextos de pruebas de penetración y seguridad informática. La decisión de utilizar Python y las llamadas al sistema 'ifconfig' se basa en la necesidad de compatibilidad y flexibilidad en entornos Unix.
+   La herramienta se diseñó para facilitar la manipulación segura y eficiente de direcciones MAC, especialmente en contextos de pruebas de penetración y seguridad informática. La decisión de utilizar Python y las llamadas al sistema 'ifconfig' se 
+   basa en la necesidad de compatibilidad y flexibilidad en entornos Unix.
 
 ## Uso
 
-1. **Clonar el repositorio:**
+## Instrucciones de Instalación
+
+1. **Configurar el entorno:**
+   Asegúrate de tener Python instalado en tu sistema. La herramienta está diseñada para funcionar en entornos Unix.
+
+2. **Clonar el repositorio:**
    ```bash
    git clone https://github.com/tu_usuario/mac-changer.git
    cd mac-changer
    
-2. **Ejecutar la herramienta:**
+3. **Ejecutar la herramienta:**
    ```bash
    sudo python mac_changer.py
   
-3. **Siguientes pasos:**
+4. **Siguientes pasos:**
 * Selecciona la interfaz de red.
 * Decide si quieres introducir manualmente una nueva dirección MAC o generar una aleatoria.
 * Sigue las instrucciones en pantalla para completar el cambio de dirección MAC.
